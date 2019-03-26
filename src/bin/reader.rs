@@ -74,8 +74,8 @@ impl FromStr for Device {
     fn from_str(input: &str) -> Result<Self, Self::Err> {
         let mut input = input.split(':');
 
-        let major: u32 = input.next().unwrap().parse().unwrap();
-        let minor: u32 = input.next().unwrap().parse().unwrap();
+        let major: u32 = u32::from_str_radix(input.next().unwrap(), 16).unwrap();
+        let minor: u32 = u32::from_str_radix(input.next().unwrap(), 16).unwrap();
 
         Ok(Device { major, minor })
     }
