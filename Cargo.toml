@@ -1,0 +1,8 @@
+[package]
+name = "mem"
+version = "0.1.0"
+authors = ["tatref <tatref@github.com>"]
+edition = "2018"
+
+[dependencies]
+regex = "1.1.2"
