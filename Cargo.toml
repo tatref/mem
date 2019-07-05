@@ -1,5 +1,5 @@
 [package]
-name = "mem"
+name = "memprocreader"
 version = "0.1.0"
 authors = ["tatref <tatref@github.com>"]
 edition = "2018"
