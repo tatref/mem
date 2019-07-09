@@ -1,10 +1,8 @@
-use std::time::Duration;
 
 use std::str::FromStr;
 use std::fs::File;
 use std::io::BufReader;
 use std::io::{self,prelude::*};
-use regex;
 
 
 /// http://man7.org/linux/man-pages/man5/proc.5.html
